@@ -1,11 +1,11 @@
 import React from 'react';
-import image01 from '../../images/sofa.jpeg';
-import image02 from '../../images/room2.jpeg';
-import image03 from '../../images/image03.jpeg';
-import image04 from '../../images/image04.jpeg';
-import image05 from '../../images/image05.jpeg';
-import image06 from '../../images/image06.jpeg';
-import image07 from '../../images/image07.jpeg';
+import image01 from '../../images/sofa.jpg';
+import image02 from '../../images/room2.jpg';
+import image03 from '../../images/image03.jpg';
+import image04 from '../../images/image04.jpg';
+import image05 from '../../images/image05.jpg';
+import image06 from '../../images/image06.jpg';
+import image07 from '../../images/image07.jpg';
 
 
 const Home = () => {
