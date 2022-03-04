@@ -18,64 +18,68 @@ function App() {
       <div className="row">
         <h6 className="col-md-12 bg-black text-white pt-2 pb-2 m-0 p-0">FREE DELIVERY ON ORDERS OVER $5000</h6>
       </div>
+
+
+      
       <div className="row mt-4">
-        <div className="col-3">  {/* column one*/}
+        <div className="col-md-3 col-sm-6">  {/* column one*/}
           <h4 id="janterior">Janterior</h4>
           
         </div>
-        <div className="col-6 ">  {/* column Two Start*/}
-          <nav className="navbar  navbar-expand-lg navbar-danger p-0">
-            <button className="navbar-toggler  bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="  navbar-toggler-icon bg-black"></span>
+        <div className="col-md-6 col-sm-2">  {/* column Two Start*/}
+          <nav className="navbar  navbar-expand-lg navbar-black p-0 black">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="  navbar-toggler-icon black"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <Link to="/home" className="links ms-5" >
+            <div className="collapse navbar-collapse black" id="navbarSupportedContent">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 black">
+                <li className="nav-item black">
+                  <Link to="/home" className="links" >
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/shop" className="links ms-5" >
+                  <Link to="/shop" className="links" >
                     Shop
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/info" className="links ms-5">
+                  <Link to="/info" className="links">
                     Info
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/services" className="links ms-5" >
+                  <Link to="/services" className="links" >
                     Services
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/contact" className="links ms-5" >
+                  <Link to="/contact" className="links" >
                     Contact
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/about" className="links ms-5">
+                  <Link to="/about" className="links">
                     About
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/contact" className="links ms-5" >
+                  <Link to="/contact" className="links" >
                     Contact
                   </Link>
                 </li>
               </ul>
-            </div>
-            <form className="d-flex ms-4">
+              <form className="d-flex ms-4">
               <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
               <button className="btn btn-outline-success" type="submit">Search</button>
             </form>
+            </div>
+            
           </nav>
         </div>
-        <div className="col-3">
+        <div className="col-md-3 col-sm-2 pt-1">
           <FontAwesomeIcon icon={faUser} />
-          <FontAwesomeIcon className="ms-4" icon={faCartArrowDown} />
+          <FontAwesomeIcon className="ms-4 " icon={faCartArrowDown} />
         </div>
         {/* column Three end*/}
         {/* column Four Start*/}
