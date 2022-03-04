@@ -66,7 +66,6 @@ const Home = () => {
                 <div className="col-3 mt-5 bg-primary">
                     <img src={image01} className="" width="360px" alt="" /></div>
                 <p className="col-3">Nam blandit tellus at condimentum aliquam mauris pharetra sollici ultricies nullam vulputate eu arcu.
-
                     Ret dolore magna aliqua enut enim ad minim veniam, quis nostrud exer. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor.</p>
                 <div className="col-6"></div>
                 <h1 className="col-6 mt-5 bg-primary" >Janterior | Interior Design</h1>

@@ -5,7 +5,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import NoMatch from './Components/NoMatch/NoMatch';
-import image01 from '../src/images/sofa.png';
+// import image01 from '../src/images/sofa.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCartArrowDown } from '@fortawesome/free-solid-svg-icons';
@@ -85,7 +85,7 @@ function App() {
       </div>
    
 
-      
+
 
       <Routes>
         <Route index path="/" element={<Home />} />
