@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 import image01 from '../../images/sofa.jpg';
 import image02 from '../../images/room2.jpg';
 import image03 from '../../images/image03.jpg';
@@ -6,8 +7,8 @@ import image04 from '../../images/image04.jpg';
 import image05 from '../../images/image05.jpg';
 import image06 from '../../images/image06.jpg';
 import image07 from '../../images/image07.jpg';
-
-
+import image08 from '../../images/image08.jpg';
+import image09 from '../../images/image09.jpg';
 const Home = () => {
     return (
         <div>
@@ -58,17 +59,21 @@ const Home = () => {
                 </div>
             </div>
             <div className="row mt-5 justify-content-center align-items-center mx-auto container">
-                <h1 className="col-6 mt-5" >Breathtaking design essentials for modern home living.</h1>
-                <h1 className="col-6 mt-5" >Janterior | Interior Design</h1>
+                <p className="col-md-6 col-sm-12 mt-5 pt-5" id="devo" >Breathtaking design essentials for modern home living.</p>
+                <p className="col-md-6 col-sm-12 mt-5 pt-5" id="fevo" >Janterior | Interior Design</p>
             </div>
-            <div className="row mt-5 bg-danger justify-content-center align-items-center mx-auto container">
-
-                <div className="col-3 mt-5 bg-primary">
-                    <img src={image01} className="" width="360px" alt="" /></div>
-                <p className="col-3">Nam blandit tellus at condimentum aliquam mauris pharetra sollici ultricies nullam vulputate eu arcu.
-                    Ret dolore magna aliqua enut enim ad minim veniam, quis nostrud exer. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor.</p>
-                <div className="col-6"></div>
-                <h1 className="col-6 mt-5 bg-primary" >Janterior | Interior Design</h1>
+            <div className="row mt-5 mb-5  justify-content-center  mx-auto container">
+                <div className="col-lg-6 col-md-6 col-sm-12 mt-5">
+                    <img src={image08} className="col-12 rounded-3" alt="" />
+                    <p className="col-lg-12  col-md-12 col-sm-12 mt-5 center secTp">
+                        With over twenty years’ experience, defining the ‘home from home’ design aesthetic of Soho House, Vicky now leads a team of twelve,
+                        delivering bespoke interior schemes direct to clients.We work collaboratively with the architect, contractor and client to guide each project,
+                        from inception to completion.
+                    </p>
+                </div>
+                <div className="col-lg-6  col-md-6 col-sm-12 mt-5">
+                    <img src={image09} className="col-10 rounded-3" alt="" />
+                </div>
             </div>
         </div>
     );

@@ -21,6 +21,7 @@ function App() {
       <div className="row mt-4">
         <div className="col-3">  {/* column one*/}
           <h4 id="janterior">Janterior</h4>
+          
         </div>
         <div className="col-6 ">  {/* column Two Start*/}
           <nav className="navbar  navbar-expand-lg navbar-danger p-0">
