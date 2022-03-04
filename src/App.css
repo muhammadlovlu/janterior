@@ -26,6 +26,7 @@
 
 .App-link {
   color: #ee941f;
+  
 }
 
 
@@ -35,7 +36,13 @@
 }
 
 
-
+.links {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+  font-size:18px;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 
 
