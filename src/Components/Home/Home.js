@@ -9,6 +9,15 @@ import image06 from '../../images/image06.jpg';
 import image07 from '../../images/image07.jpg';
 import image08 from '../../images/image08.jpg';
 import image09 from '../../images/image09.jpg';
+import image11 from '../../images/image11.jpg';
+import image12 from '../../images/image12.jpg';
+import image13 from '../../images/image13.jpg';
+import image14 from '../../images/image14.jpg';
+import image15 from '../../images/image15.jpg';
+import image16 from '../../images/image16.jpg';
+import image17 from '../../images/image17.jpg';
+import image18 from '../../images/image18.jpg';
+import image19 from '../../images/image19.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAtom, faBahai, faCampground, faBed, faFeatherPointed } from '@fortawesome/free-solid-svg-icons';
 const Home = () => {
@@ -61,7 +70,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="row mt-5 justify-content-center align-items-center mx-auto container">
-                <p className="col-md-6 col-sm-12 mt-5 pt-5" id="devo" >Breathtaking design essentials for modern home living.</p>
+                <p className="col-md-6 col-sm-12 mt-5 pt-5 devo" >Breathtaking design essentials for modern home living.</p>
                 <p className="col-md-6 col-sm-12 mt-5 pt-5" id="fevo" >Janterior | Interior Design</p>
             </div>
             <div className="row mt-5 mb-5  justify-content-center  mx-auto container">
@@ -78,20 +87,82 @@ const Home = () => {
                 </div>
             </div>
             {/* company section brief  Start*/}
-            <div clssName="row">
 
-              
-               <div className="mt-5 pt-5 pb-5 bg-danger ">
-                    <p className="col-1 brief-Section bg-warning"><FontAwesomeIcon icon={faCampground} />Hemisferio</p>
-                    <p className="col-1 brief-Section bg-secondary"><FontAwesomeIcon icon={faAtom} />Aesthetic</p>
-                    <p className="brief-Section bg-warning"><FontAwesomeIcon icon={faBed} />Furniture</p>
-                    <p className="brief-Section bg-secondary"><FontAwesomeIcon icon={faBahai} />Spaces</p>
-                    <p className="brief-Section bg-warning"><FontAwesomeIcon icon={faFeatherPointed} />Interior</p>
+            <div className="row justify-content-center mb-5 pb-5 mt-5 pt-5">
+                <p className="col-md-2 brief-Section bg-secondary bg-opacity-25 rounded-3"><FontAwesomeIcon className="pe-3" icon={faCampground} />Hemisferio</p>
+                <p className="col-md-2 brief-Section bg-secondary bg-opacity-10 rounded-3"><FontAwesomeIcon className="pe-3" icon={faAtom} />Aesthetic</p>
+                <p className="col-md-2 brief-Section bg-secondary bg-opacity-25 rounded-3"><FontAwesomeIcon className="pe-3" icon={faBed} />Furniture</p>
+                <p className="col-md-2 brief-Section bg-secondary bg-opacity-10 rounded-3"><FontAwesomeIcon className="pe-3" icon={faBahai} />Spaces</p>
+                <p className="col-md-2 brief-Section bg-secondary bg-opacity-25 rounded-3"><FontAwesomeIcon className="pe-3" icon={faFeatherPointed} />Interior</p>
+            </div>
+            {/* Company section brief  end*/}
+
+            {/*Our Product section  Start*/}
+            <div className="row justify-content-center align-items-center mx-auto container">
+                <p className="col-md-6 col-sm-12 mt-5 pt-5 devo">Our Products</p>
+                <h1 className="col-12 p-2 text-start text-white bg-black rounded">Lifestyle Furniture</h1>
+
+                <div className="row container justify-content-center align-items-center mx-auto">
+                    <div className="col-md-4 col-sm-12 mt-5">
+                        <img src={image11} className="rounded-3" width="320px" alt="" />
+                        <h4 className="mt-4">Zino Pack</h4>
+                        <h4>$845</h4>
+                    </div>
+                    <div className="col-md-4 col-sm-12 mt-5">
+                        <img src={image12} className="rounded-3" width="320px" alt="" />
+                        <h4 className="mt-4">MiniQa Pack</h4>
+                        <h4>$3445</h4>
+                    </div>
+                    <div className="col-md-4 col-sm-12 mt-5">
+                        <img src={image13} className="rounded-3" width="320px" alt="" />
+                        <h4 className="mt-4">Wuilo Pack</h4>
+                        <h4>$2345</h4>
+                    </div>
                 </div>
-              
+
+
+
+                <div className="row container justify-content-center align-items-center mx-auto">
+                    <div className="col-md-4 col-sm-12 mt-5">
+                        <img src={image14} className="rounded-3" width="320px" alt="" />
+                        <h4 className="mt-4">Honix Pack</h4>
+                        <h4>$4279</h4>
+                    </div>
+                    <div className="col-md-4 col-sm-12 mt-5">
+                        <img src={image15} className="rounded-3" width="320px" alt="" />
+                        <h4 className="mt-4">Ribona Pack</h4>
+                        <h4>$7346</h4>
+                    </div>
+                    <div className="col-md-4 col-sm-12 mt-5">
+                        <img src={image16} className="rounded-3" width="320px" alt="" />
+                        <h4 className="mt-4">Zuissa Pack</h4>
+                        <h4>$9873</h4>
+                    </div>
+                </div>
+
+                <div className="row container justify-content-center align-items-center mx-auto">
+                    <div className="col-md-4 col-sm-12 mt-5">
+                        <img src={image17} className="rounded-3" width="320px" alt="" />
+                        <h4 className="mt-4">Honix Pack</h4>
+                        <h4>$4279</h4>
+                    </div>
+                    <div className="col-md-4 col-sm-12 mt-5">
+                        <img src={image18} className="rounded-3" width="320px" alt="" />
+                        <h4 className="mt-4">Ribona Pack</h4>
+                        <h4>$7346</h4>
+                    </div>
+                    <div className="col-md-4 col-sm-12 mt-5">
+                        <img src={image19} className="rounded-3" width="320px" alt="" />
+                        <h4 className="mt-4">Zuissa Pack</h4>
+                        <h4>$9873</h4>
+                    </div>
+                </div>
+
 
             </div>
-            {/* company section brief  end*/}
+            {/*Our Product section  end*/}
+
+
         </div>
     );
 };

@@ -8,7 +8,7 @@
 
 }
 
-#devo {
+.devo {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size:26px;
     font-weight: 100;
@@ -23,8 +23,19 @@ font-size:26px;
 
 p.brief-Section{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:30px;
+    font-size:35px;
     font-weight:bolder;
-    opacity:0.5;
+    opacity:0.6;
  
+}
+
+h3 {
+    font-family:monospace;
+    font-weight:bolder;
+}
+
+
+h4 {
+    /* font-family: 'Righteous'; */
+    font-family: 'Bebas Neue';
 }
