@@ -75,6 +75,18 @@ const Home = () => {
                     <img src={image09} className="col-10 rounded-3" alt="" />
                 </div>
             </div>
+            {/* company section brief  Start*/}
+            <div clssName=" container mt-5 pt-5 pb-5">
+                <div className="row justify-content-center mt-5 pt-5 pb-5">
+                    <p className="col-sm-2 brief-Section pt-5">Hemisferio</p>
+                    <p className="col-sm-2 brief-Section pt-5">Aesthetic</p>
+                    <p className="col-sm-2 brief-Section pt-5">Furniture</p>
+                    <p className="col-sm-2 brief-Section pt-5">Spaces</p>
+                    <p className="col-sm-2 brief-Section pt-5">Interior</p>
+
+                </div>
+            </div>
+            {/* company section brief  end*/}
         </div>
     );
 };
