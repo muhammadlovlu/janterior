@@ -9,10 +9,12 @@ import image06 from '../../images/image06.jpg';
 import image07 from '../../images/image07.jpg';
 import image08 from '../../images/image08.jpg';
 import image09 from '../../images/image09.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAtom, faBahai, faCampground, faBed, faFeatherPointed } from '@fortawesome/free-solid-svg-icons';
 const Home = () => {
     return (
         <div>
-            <div className="row m-0 p-0">
+            <div className="row  m-0 p-0">
                 <div className="col-12 mt-3">
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-touch="true" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -76,15 +78,18 @@ const Home = () => {
                 </div>
             </div>
             {/* company section brief  Start*/}
-            <div clssName=" container mt-5 pt-5 pb-5">
-                <div className="row justify-content-center mt-5 pt-5 pb-5">
-                    <p className="col-sm-2 brief-Section pt-5">Hemisferio</p>
-                    <p className="col-sm-2 brief-Section pt-5">Aesthetic</p>
-                    <p className="col-sm-2 brief-Section pt-5">Furniture</p>
-                    <p className="col-sm-2 brief-Section pt-5">Spaces</p>
-                    <p className="col-sm-2 brief-Section pt-5">Interior</p>
+            <div clssName="row">
 
+              
+               <div className="mt-5 pt-5 pb-5 bg-danger ">
+                    <p className="col-1 brief-Section bg-warning"><FontAwesomeIcon icon={faCampground} />Hemisferio</p>
+                    <p className="col-1 brief-Section bg-secondary"><FontAwesomeIcon icon={faAtom} />Aesthetic</p>
+                    <p className="brief-Section bg-warning"><FontAwesomeIcon icon={faBed} />Furniture</p>
+                    <p className="brief-Section bg-secondary"><FontAwesomeIcon icon={faBahai} />Spaces</p>
+                    <p className="brief-Section bg-warning"><FontAwesomeIcon icon={faFeatherPointed} />Interior</p>
                 </div>
+              
+
             </div>
             {/* company section brief  end*/}
         </div>
