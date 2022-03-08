@@ -19,12 +19,13 @@ import image17 from '../../images/image17.jpg';
 import image18 from '../../images/image18.jpg';
 import image19 from '../../images/image19.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAtom, faBahai, faCampground, faBed, faFeatherPointed } from '@fortawesome/free-solid-svg-icons';
+import { faAtom, faBahai, faCampground, faBed, faFeatherPointed, faCouch, faLightbulb, faBoxesStacked, faWarehouse} from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div>
             <div className="row  m-0 p-0">
-                <div className="col-12 mt-3">
+                <div className="col-12 p-0">
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-touch="true" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -76,7 +77,7 @@ const Home = () => {
             <div className="row mt-5 mb-5  justify-content-center  mx-auto container">
                 <div className="col-lg-6 col-md-6 col-sm-12 mt-5">
                     <img src={image08} className="col-12 rounded-3" alt="" />
-                    <p className="col-lg-12  col-md-12 col-sm-12 mt-5 center secTp">
+                    <p className="col-lg-12  col-md-12 col-sm-12 mt-5 center ticola">
                         With over twenty years’ experience, defining the ‘home from home’ design aesthetic of Soho House, Vicky now leads a team of twelve,
                         delivering bespoke interior schemes direct to clients.We work collaboratively with the architect, contractor and client to guide each project,
                         from inception to completion.
@@ -106,7 +107,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-12 mt-5">
                         <img src={image11} className="rounded-3" width="320px" alt="" />
                         <h4 className="mt-4">Zino Pack</h4>
-                        <h4>$845</h4>
+                        <h4>$1845</h4>
                     </div>
                     <div className="col-md-4 col-sm-12 mt-5">
                         <img src={image12} className="rounded-3" width="320px" alt="" />
@@ -143,26 +144,44 @@ const Home = () => {
                 <div className="row container justify-content-center align-items-center mx-auto">
                     <div className="col-md-4 col-sm-12 mt-5">
                         <img src={image17} className="rounded-3" width="320px" alt="" />
-                        <h4 className="mt-4">Honix Pack</h4>
-                        <h4>$4279</h4>
+                        <h4 className="mt-4">Perula Pack</h4>
+                        <h4>$15789</h4>
                     </div>
                     <div className="col-md-4 col-sm-12 mt-5">
                         <img src={image18} className="rounded-3" width="320px" alt="" />
-                        <h4 className="mt-4">Ribona Pack</h4>
-                        <h4>$7346</h4>
+                        <h4 className="mt-4">Tabil Pack</h4>
+                        <h4>$4522</h4>
                     </div>
                     <div className="col-md-4 col-sm-12 mt-5">
                         <img src={image19} className="rounded-3" width="320px" alt="" />
-                        <h4 className="mt-4">Zuissa Pack</h4>
-                        <h4>$9873</h4>
+                        <h4 className="mt-4">kara Pack</h4>
+                        <h4>$12344</h4>
                     </div>
+                    <button type="button" className="w-25 mt-5 mb-5 container mx-auto justify-content-center align-items-center bg-black rounded-3 fw-bold">
+                        <Link className="text-white text-decoration-none" to="/shop">View All</Link>
+                    </button>
                 </div>
-
-
             </div>
             {/*Our Product section  end*/}
 
-
+{/*Category Section Start*/}
+<div className="row container justify-content-center align-items-center mx-auto">
+                    <div className="col-md-2 col-sm-12 mt-2 mb-2 bg-secondary m-2 rounded-3 bg-opacity-25">
+                        <h4 className="mt-2"><FontAwesomeIcon icon={faCouch} /><br/>Furniture</h4>
+                    </div>
+                    <div className="col-md-2 col-sm-12 mt-2 mb-2 bg-secondary m-2 rounded-3 bg-opacity-25">
+                        <h4 className="mt-2"><FontAwesomeIcon icon={faLightbulb} /><br/>Lighting</h4>
+                    </div>
+                    <div className="col-md-2 col-sm-12 mt-2 mb-2 bg-secondary m-2 rounded-3 bg-opacity-25">
+                        <h4 className="mt-2"><FontAwesomeIcon icon={faBoxesStacked} /><br/>Accessories</h4>
+                    </div>
+                    <div className="col-md-2 col-sm-12 mt-2 mb-2 bg-secondary m-2 rounded-3 bg-opacity-25">
+                        <h4 className="mt-2"><FontAwesomeIcon icon={faWarehouse} /><br/>Storage</h4>
+                    </div>
+                  
+                    
+                </div>
+{/*Category Section End*/}
         </div>
     );
 };
